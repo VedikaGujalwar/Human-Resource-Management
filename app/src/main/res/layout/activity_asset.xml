@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/asset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Assets"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/dress"
+        android:layout_width="310dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/asset"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Dress"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/mob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/dress"
+        android:layout_width="310dp"
+        android:background="@drawable/border"
+        android:layout_height="150dp"
+        android:text="Mobile"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/laptop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/mob"
+        android:layout_width="310dp"
+        android:background="@drawable/border"
+        android:layout_height="150dp"
+        android:text="Laptop"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/chair"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/laptop"
+        android:layout_width="310dp"
+        android:background="@drawable/border"
+        android:layout_height="150dp"
+        android:text="Chair"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:text="SUBMIT"
+        android:textSize="26dp"
+        android:layout_below="@id/chair"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Apply For Leave"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Date of Leave"
+        android:paddingLeft="5dp"
+        android:inputType="date"
+        android:paddingTop="15dp"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="310dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/date"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:hint="Reason for Leave"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_below="@id/reason"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit Application"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>

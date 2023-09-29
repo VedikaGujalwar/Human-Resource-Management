@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Original code is saved n D drive-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/login_icon" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Vedika Gujalwar"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="801022887"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+</LinearLayout>
